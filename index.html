@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Golf's Steak House - Gift Certificates</title>
+    <title>Golf's Steak House - Menu Options</title>
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
     <style>
         /* General Styles */
@@ -54,17 +54,10 @@
         nav ul li a:hover {
             color: #b11b1b;
         }
-      
-      .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
 
         .hero-section {
             position: relative;
-            background: url('42411392 (1).jpg') no-repeat center center;
+            background: url('header.webp') no-repeat center center;
             background-size: cover;
             height: 600px;
             display: flex;
@@ -94,92 +87,61 @@
             font-family: 'Lora', serif;
         }
 
-        .hero-overlay p {
-            margin: 10px 0 0;
-            font-size: 1.2rem;
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
         }
 
-        .content {
-            padding: 40px 20px;
+        .menu-options {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin: 40px 0;
         }
 
-        .content h2 {
+        .menu-option {
             text-align: center;
-            margin-bottom: 20px;
-            font-size: 2rem;
-            font-family: 'Lora', serif;
-            color: #b11b1b;
         }
 
-        .gift-options {
-            display: flex;
-            gap: 30px;
-            justify-content: center;
-            margin-top: 40px;
+        .menu-option img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 15px;
         }
 
-        .gift-card {
-            max-width: 400px;
-            text-align: center;
-            padding: 20px;
-        }
-
-        .gift-card h3 {
+        .menu-option h3 {
             font-size: 1.5rem;
             color: #b11b1b;
+            margin: 10px 0;
         }
 
-        .gift-card p {
-            margin: 10px 0 20px;
+        .menu-option p {
             font-size: 1rem;
             color: #555;
+            line-height: 1.6;
         }
 
-        .gift-card a {
+        .menu-option a {
             display: inline-block;
-            margin-top: 15px;
-            background-color: #b11b1b;
-            color: white;
-            text-decoration: none;
-            padding: 10px 20px;
-        }
-
-        .gift-card a:hover {
-            background-color: #a00a0a;
-        }
-
-        .balance-checker {
-            text-align: center;
-            margin-top: 70px;
-        }
-
-        .balance-checker a {
-            background-color: #b11b1b;
-            color: white;
-            font-family: 'Nunito', sans-serif;
-            font-size: 1rem;
-            padding: 10px 20px;
-            text-decoration: none;
-            border: none;
-            display: inline-block;
-            margin-bottom: 20px;
-            margin-top: 15px;
-        }
-
-        .balance-checker a:hover {
-            background-color: #a00a0a;
-        }
-
-        .balance-checker p {
             margin-top: 10px;
-            font-size: 1rem;
-            color: #555;
+            padding: 10px 20px;
+            background-color: #b11b1b;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .menu-option a:hover {
+            background-color: #a00a0a;
         }
 
         footer {
             text-align: center;
             background-color: #f8f8f8;
-            padding: 20px 0;
+            padding: 40px 0; /* Increased padding for a larger gap */
             font-size: 0.9em;
             border-top: 1px solid #ddd;
         }
@@ -212,13 +174,13 @@
 <body>
     <header>
         <a href="https://k3nzie8818.github.io/golfs-steakhouse-home/" class="logo-placeholder">
-            <img src="Golf's High Res Logo clear bkgd.avif" alt="Golf's Steak House Logo">
+            <img src="Golf's High Res Logo clear bkgd (2).avif" alt="Golf's Steak House Logo">
         </a>
         <nav>
             <ul>
-                <li><a href="https://k3nzie8818.github.io/golfs-steakhouse-menu/">Menu</a></li>
+                <li><a href="#">Menu</a></li>
                 <li><a href="#">Banquet Halls & Facilities</a></li>
-                <li><a href="https://k3nzie8818.github.io/golfs-steakhouse-gift-certificates/">Gift Certificates</a></li>
+                <li><a href="#">Gift Certificates</a></li>
                 <li><a href="#">Contact Us</a></li>
                 <li><a href="https://www.opentable.ca/golfs-steak-house-and-seafood">Reservations</a></li>
             </ul>
@@ -227,34 +189,26 @@
 
     <div class="hero-section">
         <div class="hero-overlay">
-            <h1>Gift Certificates</h1>
-            <p>Give the gift of a memorable dining experience with Golf's Steak House.</p>
+            <h1>Explore Our Menus</h1>
         </div>
     </div>
 
     <div class="container">
-  <div class="content">
-        <h2>Choose Your Gift Option</h2>
-        <div class="gift-options">
-            <div class="gift-card">
-                <h3>E-Gift Cards</h3>
-                <p>Our eGift Cards are designed for ultimate convenience—you’ll never have to worry about leaving it behind!</p>
-                <a href="https://order.toasttab.com/egiftcards/golfs-steakhouse-and-seafood-598-lancaster-st-w" target="_blank">Click Here to Purchase!</a>
+        <div class="menu-options">
+            <div class="menu-option">
+                <img src="brunch.webp" alt="Brunch Menu">
+                <h3>Brunch Menu</h3>
+                <p>Start your day with our delicious brunch options. From hearty omelets to fresh pastries, we have everything you need for the perfect morning meal.</p>
+                <a href="#">View Brunch Menu</a> <!-- Add brunch menu link here -->
             </div>
-            <div class="gift-card">
-                <h3>Physical Gift Cards</h3>
-                <p>Give a timeless, tangible gift with our physical gift cards. Beautifully presented for any occasion.</p>
-              <p>
-                Come visit us in person to purchase a physical card!
-              </p>
+            <div class="menu-option">
+                <img src="dinner.webp" alt="Dinner Menu">
+                <h3>Dinner Menu</h3>
+                <p>Experience our exquisite dinner selections, featuring prime cuts, fresh seafood, and savory classics that will leave you satisfied.</p>
+                <a href="https://k3nzie8818.github.io/golfs-steakhouse-menu/">View Dinner Menu</a>
             </div>
-        </div>
-        <div class="balance-checker">
-            <p>Use our balance checker or give us a call at (519) 579-4050!</p>
-            <a href="https://www.toasttab.com/golfs-steakhouse-and-seafood-598-lancaster-st-w/findcard" target="_blank">Balance Checker</a>
         </div>
     </div>
-  </div>
 
     <footer>
         <p>598 Lancaster Street West, Kitchener, Ontario, Canada</p>
